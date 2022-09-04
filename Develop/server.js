@@ -9,14 +9,18 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use('/api', api);
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
 app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/notes.html'))
+  res.sendFile(path.join(__dirname, '/public/pages/notes.html'))
+);
+
+app.get('/api/notes', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/pages/notes.html'))
 );
 
 app.listen(PORT, () => {
