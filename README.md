@@ -47,6 +47,7 @@ If you have any questions please feel free to reach out to me through Github or 
 
 ## Photos
 
-image.png
+![image](https://user-images.githubusercontent.com/107075686/188329753-539dcb64-167e-4869-a614-ff67bfff00e4.png)
 
-image.png
+![image](https://user-images.githubusercontent.com/107075686/188329774-ebbd6008-b0d6-46b0-aea7-f46f4daf54b3.png)
+
